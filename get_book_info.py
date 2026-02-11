@@ -60,7 +60,7 @@ if __name__ == "__main__":
     
     if info.get("found"):
         # 【重要】タイトルをファイル名変更用にYAMLに出力
-        print(f"title: {info['title']}")
+        print(f"title: \"{info['title']}\"")
         print(f"cover: {info['cover']}")
         print(f"tags:")
         print(f"author: \"[[{info['author']}]]\"")
